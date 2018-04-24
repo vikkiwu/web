@@ -1,0 +1,17 @@
+a [href^="test1.html"]{
+    color: red;
+    border: aqua 10px dashed;
+}
+
+a [href] {
+    color: blueviolet;
+}
+.a{
+    color: blueviolet;
+    border: aqua 10px dashed;
+}
+
+.bgcolor{
+    /*background: rgba(128, 128, 128,0.7);*/
+    background: 62684637_p0.jpg;
+}
