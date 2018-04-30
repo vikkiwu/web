@@ -1,6 +1,6 @@
 a [href^="test1.html"]{
     color: red;
-    border: aqua 10px dashed;
+    border:#78FEE0 10px dashed;
 }
 
 a [href] {
@@ -13,5 +13,16 @@ a [href] {
 
 .bgcolor{
     /*background: rgba(128, 128, 128,0.7);*/
-    background: 62684637_p0.jpg;
+    background: 62684637_p0;
+}
+
+p {
+    background-color: gray; 
+    padding: 10px;
+    padding-left: 5em;
+    text-indent: -5em;
+    text-decoration: blink;
+}
+b {font-weight: 500;
+
 }
