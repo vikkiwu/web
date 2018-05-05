@@ -1,0 +1,22 @@
+.wrapper div{
+    overflow: auto;
+    float: left;
+}
+.float-left{
+    background: #baf3eec7;
+ 
+    width: 30%;
+}
+.main{
+    background: rgb(238, 234, 183);
+    padding: 10px 20px;
+
+    width: 70%;
+    box-sizing: border-box;
+}  
+.footer{
+    clear: both;
+    background: rgb(138, 138, 138);
+    display: block;
+    width:100%;
+}

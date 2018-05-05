@@ -1,0 +1,14 @@
+.main{
+    position: relative;
+    width: 70%;
+    background: burlywood;
+    font-size: 20px;
+    left: 30%;
+}
+.float-left{
+    width: 30%;
+    background: azure;
+    position: absolute;
+
+    font-size: 20px;
+}

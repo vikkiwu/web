@@ -1,0 +1,10 @@
+.wrapper{
+    display: flex;
+    align-items: flex-start;
+}
+.float-left{
+    flex: 3;
+}
+.main{
+    flex: 7;
+}
