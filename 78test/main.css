@@ -28,13 +28,13 @@ padding-top: 10px;
 padding-bottom: 10px;                    
 }          
 li{
-    display: inline;
+    display: inline-block;
+    margin: 2px;
 }
-#nav{
-    text-decoration: underline;
-}
+
 #nav a{
     color: white;
+    text-decoration: underline;
 }
 /*之后试试能不能写在一起*/
 #Banner{
