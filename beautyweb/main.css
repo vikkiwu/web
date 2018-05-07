@@ -1,0 +1,535 @@
+body{
+    font-family: Montserrat-Light,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    min-width: 1600px;
+    padding: 0;
+    margin: 0;
+    font-weight: lighter;
+    text-align: center;
+}
+header{
+    font-family: Montserrat-ExtraLight;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 0;
+    height: 990px;
+}
+header:before,header::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.65);
+    z-index: -1;
+}
+header::after{
+    background-image: url(header-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -2;
+}
+h1{
+    font-size: 62px;
+    font-weight: lighter;
+    margin: 0;
+    padding-top: 257px;
+    padding-bottom: 0;
+    color: white;
+}
+header #hello-text{
+    width: 780px;
+    height: auto;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 20px;
+    margin: 90px auto;
+}
+#input-fied{
+    border: 1px rgba(255, 255, 255, 0.2) solid;
+    border-radius: 2px;
+    width: 970px;
+    height: 250px;
+    margin: 15px auto;
+
+}
+#input-fied h2{
+    font-size: 16px;
+    color: white;
+    padding-top: 60px;
+    margin: 0;
+}
+#input-fied p{
+    font-size: 12px;
+    color: rgba(255,255,255,0.3);
+    padding: 10px;
+    margin: 0 auto 36px;
+}
+#input-fied input{
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 2px;
+    margin: 0 15px;
+    font-family: Montserrat-Light;
+}
+input[type="text"]{
+    width: 292px;
+    height: 48px;
+    background: none;
+    color: white;
+    font-size: 14px;
+    padding:0 0 0 21px;
+}
+input[name="password"]{
+    color: rgba(255, 255, 255, 0.2);
+}
+input[type="submit"]{
+    width:125px;
+    height: 50px;
+    font-size: 12px;
+    background: white;
+}
+.feature9{
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 1500px;
+}
+.feature9 h1{
+    font-size: 14px;
+    color: black;
+    margin: 90px 0 0 0;
+    padding: 0;
+}
+.feature9 p{
+    font-size: 42px;
+    color: black;
+    font-weight: lighter;
+}
+.f9{
+    display: flex;
+    margin: 85px auto 0;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+.f9 h2{
+    font-size: 20px;
+    color: black;
+}
+.f9 div{
+    width: 360px;
+    margin: 0 85px 114px;
+    position: relative;
+}
+.f9 p{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.Mf::before, .A::before, .FT::before, .C::before{
+    position: absolute;
+    top: 16px;
+    left: -64px;
+}
+.Mf::before{
+    content: url(img/Iphone.png);
+}
+.A::before{
+    content: url(img/Check.png);
+}
+.FT::before{
+    content: url(img/Pencil.png);
+}
+.C::before{
+    content: url(img/Settings.png);
+}
+.c7{
+    width: 1600px;
+    height: 800px;
+    z-index: 0;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+#c7b{
+    width: 100%;
+    position: relative;
+    z-index: 0;
+}
+.c7_l{
+    position: absolute;
+    padding-left: 315px;
+}
+#c7b::before, #c7b::after{
+    content: "";
+    background: rgba(0, 0, 0, 0.65);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+#c7b::after{
+    background: url(img/c_bg.png);
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -2;
+}
+.c7_img{
+    position: absolute;
+    top:12.5%;
+    right: 0;
+}
+h2{
+    font-size: 42px;
+    font-family: Montserrat_ExtraLight;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    padding: 0;
+    margin:0;
+}
+.c7_t{
+    color: rgb(255, 255, 255);
+    width: 380px;
+    padding-top: 180px;
+    text-align: left;
+}
+.c7 p{
+    font-size: 18px;
+    color: rgba(255,255,255,0.7);
+    margin: 0;
+    margin-top:49px; 
+}
+.c7_buttom{
+    margin: 0;
+    margin-top: 60px;
+    list-style-type: none;
+    padding: 0;
+}
+.c7_buttom li{
+    float: left;
+    margin-right: 30px;
+}
+.c7_buttom a{
+    display: block;
+    font-size: 12px;
+    background: white;
+    border: 1px solid white;
+    width: 238px;
+    padding: 22px 0;
+    text-decoration: none;
+    color: black;
+}
+
+.c7_buttom li:nth-child(2) a{
+    background: none;
+    color: white;
+}
+.c7_buttom li:nth-child(2) a:hover{
+    background: white;
+    color: black;
+}
+.f19{
+    height: 580px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.f19 h2{
+    color: black;
+    padding: 100px 0 90px; 
+    min-width: 600px;
+}
+.f19_f{
+    display: flex;
+    vertical-align: top;
+    align-items: center;
+    justify-content: space-between;
+    width: 970px;
+    margin: 0 auto;
+}
+.f19ff{
+    width: 270px;
+}
+.f19ff p{
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: 40px;
+}
+.f14{
+    height: 970px;
+    box-sizing: border-box;
+    margin: 115px auto 0 auto;
+    width: 1000px;
+    position: relative;
+}
+.fgx{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.f14_b h2{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 20px;
+}
+.f14_b p{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.f14_b{
+    overflow: hidden;
+    margin-bottom: 80px;
+    position: relative;
+}
+.f14_bt{
+    width: 330px;
+    position: absolute;
+    top: 75px;
+    right: 0;
+}
+.f14 div:nth-child(2) .f14_bt{
+    left: 0;
+    right: auto;
+}
+.team4{
+    border: 1px solid rgba(0,0,0,0.1);
+}
+.t4c{
+    width: 1000px;
+    height: 1085px;
+    margin: 0 auto;
+}
+.team4_t h2{
+    color: black;
+    margin-top: 100px;
+    margin-bottom: 35px;
+}
+.team4_t p{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.7);
+    width: 700px;
+    margin: 0 auto 50px;
+}
+/*下面是框框内的css*/
+.up{
+    position: relative;
+    width: 470px;
+    height: 340px;
+    margin: 15px;
+    padding: 0;
+    z-index: 0;
+}
+.up_b{
+    height: 340px;
+    opacity: 0;
+    z-index: 1;
+}
+.team4t h3{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 110px auto 20px;
+
+}
+.team4t p{
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.up{
+    float: left;
+}
+.up_b:hover{
+    opacity: 1;
+}
+
+.up:hover::after { 
+	content: "";
+	display: block;
+	position: absolute;
+    width: 100%;
+    height: 100%;
+	top: 0;
+	left: 0;
+    background: rgba(0, 0, 0, 0.65);
+    z-index: -100;
+}
+.up_b ul{
+    padding: 0;
+}
+.up_b ul li{
+    list-style-type: none;
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    margin: 0 15px;
+    background: wheat;
+}
+.up_b ul li a{
+    display: block;
+    width: 54px;
+    height: 54px;
+}
+.up_b ul li:nth-child(1){
+    background: url(img/Facebook.png);
+    background-repeat: no-repeat;
+}
+.up_b ul li:nth-child(2){
+    background: url(img/Twitter.png);
+    background-repeat: no-repeat;    
+}
+.up_b ul li:nth-child(3){
+    background: url(img/Instagram.png);
+    background-repeat: no-repeat;           
+}
+/*Contacts*/
+.contact{
+    height: 700px;
+    width: 970px;
+    margin: 0 auto;
+    position: relative;
+    display: inline-block;
+}
+.contact div{
+    float: left;
+    position: relative;
+}
+.c_form{
+    width: 468px;
+    height: 560px;
+    margin: 70px 130px 70px 0;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+.c_form h2{
+    color: black;
+    font-size: 16px;
+    letter-spacing: 0.15em;
+    padding: 50px;
+}
+.c_form input, textarea{
+    width: 350px;
+    height: 50px;
+    margin: 0 50px 30px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 2px;
+    font-size: 14px;
+    color: rgba(0,0,0,0.5);
+    padding-left: 20px;
+}
+.c_form input[type="submit"]{
+    text-align: center;
+    color: white;
+    width: 370px;
+    padding: 0;
+    background: black;
+}
+textarea{
+    width: 330px;
+    height: 124px;
+    padding: 20px 20px 0;
+    resize: none;
+}
+.c_p{
+    width: 370px;
+    margin-top: 155px; 
+    text-align: left;
+}
+.c_p p{
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 16px;
+    line-height: 26px;
+    position: relative;
+    margin-bottom: 35px; 
+}
+.c_p p:nth-child(2){
+    margin-bottom: 75px;
+}
+.c_p h2{
+    color: black;
+}
+.c_way{
+    padding-left: 40px;
+}
+.c_way::before{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.c_way:nth-child(3)::before{
+    content: url(img/Map.png);
+    top: 8px;
+}
+.c_way:nth-child(4)::before{
+    content: url(img/Phone.png);
+}
+.c_way:nth-child(5)::before{
+    content: url(img/Mail.png);
+}
+footer{
+     width: 100%;
+     height: 410px;
+     background: black;
+    }
+.footer{
+    width: 1170px;
+    margin: 0 auto;
+    }
+.footer div{
+    float: left;
+    width: 293px;
+    margin: 85px 0 0; 
+    text-align: left;
+}
+.footer div h2{
+    font-size: 14px;
+    letter-spacing: 0.15em;
+    margin: 0
+}
+.footer div li , .footer div p{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.3);
+    margin: 35px 0;
+    list-style-type: none;
+}
+ul{
+    padding: 0;
+}
+
+.footer div:nth-last-child(1) ul li{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    margin-right: 25px;
+    background: wheat;
+    opacity: 0.3;
+}
+.footer  div:nth-last-child(1) ul li a{
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+.footer  div:nth-last-child(1) ul li:nth-child(1){
+    background: url(img/ssocials/TwitterIcon.png);
+    background-repeat: no-repeat;
+}
+.footer  div:nth-last-child(1) ul li:nth-child(2){
+    background: url(img/ssocials/FacebookIcon.png);
+    background-repeat: no-repeat;    
+}
+.footer  div:nth-last-child(1) ul li:nth-child(3){
+    background: url(img/ssocials/GoogleIcon.png);
+    background-repeat: no-repeat;           
+}
+.footer  div:nth-last-child(1) ul li:nth-child(4){
+    background: url(img/ssocials/TumblerIcon.png);
+    background-repeat: no-repeat;           
+}
+.footer  div:nth-last-child(1) ul li:nth-child(5){
+    background: url(img/ssocials/PinterestIcon.png);
+    background-repeat: no-repeat;           
+}
+.footer  div:nth-last-child(1) ul li:nth-child(6){
+    background: url(img/ssocials/LinkedInIcon.png);
+    background-repeat: no-repeat;           
+}
