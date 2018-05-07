@@ -494,13 +494,17 @@ footer{
 ul{
     padding: 0;
 }
+.footer a:link, .footer a:visited{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.3);
+}
 
 .footer div:nth-last-child(1) ul li{
     display: inline-block;
     width: 20px;
     height: 20px;
     margin: 0;
-    margin-right: 25px;
+    margin-right: 20px;
     background: wheat;
     opacity: 0.3;
 }
