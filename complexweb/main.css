@@ -334,6 +334,7 @@
 .Openchat{
     flex: 1 1 auto;
     position: relative;
+    min-height: 1050px;
 }
 .tools h1{
     font-family: ProximaNova_Semibold;
