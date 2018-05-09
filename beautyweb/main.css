@@ -201,17 +201,17 @@ h2{
     margin: 0;
     margin-top:49px; 
 }
-.c7_buttom{
+.c7_button{
     margin: 0;
     margin-top: 60px;
     list-style-type: none;
     padding: 0;
 }
-.c7_buttom li{
+.c7_button li{
     float: left;
     margin-right: 30px;
 }
-.c7_buttom a{
+.c7_button a{
     display: block;
     font-size: 12px;
     background: white;
@@ -222,11 +222,11 @@ h2{
     color: black;
 }
 
-.c7_buttom li:nth-child(2) a{
+.c7_button li:nth-child(2) a{
     background: none;
     color: white;
 }
-.c7_buttom li:nth-child(2) a:hover{
+.c7_button li:nth-child(2) a:hover{
     background: white;
     color: black;
 }
