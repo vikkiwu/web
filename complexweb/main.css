@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: row;
     height: 100vh;
-    min-height: 1020px;
+    min-height: 1130px;
     }
  .menu{
     display: flex;
@@ -572,6 +572,7 @@
     background: rgba(255, 255, 255, 0.3);
     z-index: 100;
 }
+/*补漏*/
 .chat_name h2:hover::before, #chat_blue::before{
     content: "";
     float: left;
@@ -584,4 +585,25 @@
 }
 .chat_name h2:hover, #chat_blue h2{
     color: #2399f1;
+}
+.s_part2 ul li::after{
+    content: url(img/menu/BookofWisdom.png);
+    float: left;
+    margin-top: 0px;
+    margin-right: 12px; 
+    text-align: right;
+}
+.s_part2 ul li:nth-child(2)::after{
+    content: url(img/menu/VideoCamera.png);
+    margin-left: -4px;     
+}
+.s_part2 ul li:nth-child(3)::after{
+    content: url(img/menu/Painting.png);
+    margin-left: -4px; 
+    
+}
+.s_part2 ul li:nth-child(4)::after{
+    content: url(img/menu/Chart.png);
+    margin-left: -2px; 
+    
 }
