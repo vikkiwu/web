@@ -228,15 +228,19 @@
     position: relative;
 }
 .search input[type="text"]{
-    width: 338px;
+    width: 324px;
     height: 34px;
     border: 1px solid #e5e8ee;
     border-radius: 4px;
     font-family: ProximaNova_Sembibold;
     font-size: 14px;
     font-weight: bold;
-    color: #9fa9ba;
+    color: rgba(159, 169, 186, 0.8);
     margin: 16px 29px;
+    padding-left: 14px;
+}
+::-webkit-input-placeholder {
+    color: rgba(159, 169, 186, 0.8);    
 }
 .ss{
     overflow: hidden;
@@ -547,9 +551,12 @@
     position: relative;
     width: 156px;
     height: 100px;
+    border-radius: 4px;
+    overflow: hidden;
     z-index: 0;
     display: inline-block;
     cursor: pointer;
+    margin-right: 10px;
 }
 .openchat.Tuesday .picture div:hover::before, .openchat.Tuesday .picture div:hover:after{
     content: "";
